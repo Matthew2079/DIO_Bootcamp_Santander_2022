@@ -1,8 +1,10 @@
 # DIO_Bootcamp_Santander_2022
-Esse repositório tem o objetivo em armazenar o conteúdo gerado pelo desenvolvimento do aprendizado durante o Bootcamp Santande 2022 com parceria com a DIO (Digital Innovation One).
+Esse repositório tem o objetivo em armazenar o conteúdo gerado pelo desenvolvimento do aprendizado durante o [Bootcamp Santande 2022](https://app.becas-santander.com/pt-BR/program/bolsas-santander-tecnologia-santander-bootcamp-2022) com parceria com a [DIO (Digital Innovation One)](https://www.dio.me/).
 
 OBS: Como validadção concluir o <strong>Desafio de Projeto de Git/GitHub do Módulo 1</strong>.
 
+
+![image](https://user-images.githubusercontent.com/85805420/172208503-2680e538-7a33-4544-a252-f25a8ce4bf1d.png)
 
 
 
@@ -14,7 +16,7 @@ OBS: Como validadção concluir o <strong>Desafio de Projeto de Git/GitHub do M�
 
 <h3>Aplicativos</h3>
 
-1. [Git Download](https://git-scm.com/downloads)
+1. [Git Desktop Download](https://git-scm.com/downloads)
 
 2. [GitHub Desktop Download](https://desktop.github.com/)
 
