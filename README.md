@@ -4,11 +4,11 @@ Esse repositório tem o objetivo em armazenar o conteúdo gerado pelo desenvolvi
 OBS: Como validadção concluir o <strong>Desafio de Projeto de Git/GitHub do Módulo 1</strong>.
 
 
+<!--
+![image](https://user-images.githubusercontent.com/85805420/172208503-2680e538-7a33-4544-a252-f25a8ce4bf1d.png)-->
 
-![image](https://user-images.githubusercontent.com/85805420/172208503-2680e538-7a33-4544-a252-f25a8ce4bf1d.png)
-
-
-
+<p align="center">
+ <a href="https://www.dio.me/"> <img src="https://user-images.githubusercontent.com/85805420/172208503-2680e538-7a33-4544-a252-f25a8ce4bf1d.png">
 
  
 
