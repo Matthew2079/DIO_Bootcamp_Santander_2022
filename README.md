@@ -18,8 +18,11 @@ OBS: Como validadção concluir o <strong>Desafio de Projeto de Git/GitHub do M�
 <h3>Aplicativos</h3>
 
 1. [Git Desktop Download](https://git-scm.com/downloads)
-
 2. [GitHub Desktop Download](https://desktop.github.com/)
+3. [Visual Studio Code](https://code.visualstudio.com/)
+4. [Node.js](https://nodejs.org/en/)
+5. [TypeScript](https://www.typescriptlang.org/download)
+
 
 <h3>Sites para Estudo</h3>
 
@@ -27,8 +30,10 @@ OBS: Como validadção concluir o <strong>Desafio de Projeto de Git/GitHub do M�
 
 2. [w3schools](https://www.w3schools.com/)
 
+
 <h3>Extras</h3>
 
 - [Sintaxe Markdown](https://www.markdownguide.org/basic-syntax/)
+- [Documentação Mozila Web](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Math)
 
 
