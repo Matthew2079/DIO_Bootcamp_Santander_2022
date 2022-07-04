@@ -1,0 +1,42 @@
+Função autoinvocável
+
+IIFE (Immediately Involked Function Expression)
+
+-> Uma função anônima entre parêntese, seguida por outro par de parêntese, que representa sua chamada.
+
+(
+	function(){
+	  let name = "DIO"
+	  return name;
+	}
+)();
+
+//DIO
+
+-> Também pode ser utilizada com parâmetros ou armazenada em uma variável.
+
+Callbacks
+
+-> Uma função passada como argumento para outra.
+ - Maior controle da ordem de chamadas.
+
+------------------------------------------------------------------------
+
+Tipos de função
+
+Estrutura 
+
+-> Variáveis criadas dentro de uma função apenas podem ser utilizadas dentro dela.
+
+function nome(parametros){
+  // instruções
+  return; //valor de retorno
+}
+
+-> Uma variável pode armazenar uma função.
+
+const soma = function (a,b) {
+ return a + b;
+}
+
+Ex: soma(1,2) // 3

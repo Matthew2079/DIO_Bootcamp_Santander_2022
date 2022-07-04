@@ -1,0 +1,23 @@
+for 
+-> loop dentro de elementos iteráveis (arrays,strings).
+-> For...in = loop entre propriedades enumeráveis de um objeto.
+-> For...of = loop entre estruturas iteráveis (arrays,strings).
+
+while
+-> Executa instruções até que a condição se torne falsa.
+
+Do...while
+-> Executa instruções até que a condição se torne falsa.
+obs: executa pelo menos uma vez.
+
+------------------------------------------------------------------------
+
+Loops - Condicionais
+
+-> If/else
+Obs: javascript não tem elseif, as palavras sempre estão espaçadas.
+
+-> Switch/case
+- Equivale a uma comparação de tipo e valor (===).
+- Sempre precisa de um valor "default".
+- Ideal para quando se precisa comparar muitos valores.

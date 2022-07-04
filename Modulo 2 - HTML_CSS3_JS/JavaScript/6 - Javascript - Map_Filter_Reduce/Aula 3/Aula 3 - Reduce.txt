@@ -1,0 +1,26 @@
+
+------------------------------------------------------------------------
+
+Método Reduce
+
+-> Executa uma função em todos os elementos do array, retornando um valor único.
+
+Sintaxe
+
+array.reduce(callbackFn, initialValue)
+
+- Callback: função a ser executada a partir do acumulador.
+- initialValue: valor sobre o qual o retorno final irá atuar.
+
+
+const = callbackFn = function(accumulator, currentValue, index, array) {
+ // do something
+}
+
+array.reduce(callbackFn, initialValue)
+
+- Accumulator/prevValue: acumulador de todas as chamadas de callbackFn.
+- currentValue: elemento atual sendo acessado pela função.
+
+
+Slide: https://drive.google.com/file/d/1vlOkvUstzKgzaAlEMX7WMTXTNhKVqSZM/view

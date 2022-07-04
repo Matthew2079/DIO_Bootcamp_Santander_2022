@@ -1,0 +1,28 @@
+
+
+------------------------------------------------------------------------
+
+Tipos de Operadores
+
+- Aritmética 
+- Atribuição
+- Comparação
+- Lógica
+- Condicional
+
+-> Atribuição (= += *= /= %=) Ex: x+=y -> x = x+y. 
+                              Ex: % módulo - retorna resto.
+
+-> Aritmética (+ - * ** / % ++ -- ) Ex: ** exponencial.
+
+-> Comparação (== === != !== > < >= <=) Ex: === mesmo valor e tipo.
+
+-> Lógica (&& || !) Ex: ! "não" lógico.
+
+-> Condicional (condition) ? expression1 : expression2
+
+If (condition)
+ statement;
+else
+ statement;
+ 

@@ -1,0 +1,43 @@
+
+var, let e const
+
+		var			const		let
+escopo		global ou local		bloco		bloco
+redeclarar	sim			não		não
+reatribuir	sim			não		sim
+hoisting	sim			não		não
+
+------------------------------------------------------------------------
+
+Constantes 
+
+- Declarada em SNAKE_UPPER_CASE.
+- Escopo de bloco.
+- Não faz Hoisting.
+
+------------------------------------------------------------------------
+
+Atribuindo Valores
+
+Boas práticas 
+
+Case Type
+
+Original Variable as String 	- some awesome var
+Camel Case 			- someAwesomeVar
+Snake Case 			- some_awesome_var
+Kebab Case 			- some-awesome-var
+Pascal Case 			- SomeAwesomeVar
+Upper case Snake Case 		- SOME_AWESOME_VAR
+
+var e let 
+
+-> Escopos diferentes.
+-> Hoisting.
+-> Redeclaração.
+-> Reatribuição.
+-> camelCase.
+
+var -> armazena um valor fixado na memória (escopo global)
+let -> armazena um valor fixo na memória enquanto está em um bloco (escopo de bloco)
+ 

@@ -1,0 +1,57 @@
+Manipulando dados
+
+Call
+-> Por meio dela em uma função você especifica para o "this" qual vai ser sua referência no objeto.
+-> É possível passar parâmetros para essa função separando-os por vírgulas.
+
+const myObj = {
+ num1:2,
+ num2:4,
+}
+
+function soma(a,b){
+ console.log(this.num1 + this.num2 + a + b);
+}
+
+soma.apply(myObj, 1,5); // 12
+
+Apply
+-> Por meio dela em uma função você especifica para o "this" qual vai ser sua referência no objeto.
+-> É possível passar parâmetros para essa função dentro de um array.
+
+const myObj = {
+ num1:2,
+ num2:4,
+}
+
+function soma(a,b){
+ console.log(this.num1 + this.num2 + a + b);
+}
+
+soma.apply(myObj, [1,5]); // 12
+
+Bind
+-> Clona a estrutura da função onde é chamada e aplica o valor do objeto passado como parâmetro.
+
+const retornaNomes = function () {
+ return this.nome;
+}
+
+let bruno = retornaNomes.bind({ nome: 'Bruno' });
+
+bruno(); // Bruno
+
+------------------------------------------------------------------------
+
+This
+
+-> A palavra reservada this é uma referência de contexto.
+-> Sempre que uma função está dentro de um objeto chama-se método.
+
+-> Seu valor pode mudar de acordo com o lugar no código onde foi chamada.
+
+ Contexto					Referência 
+Em um objeto (método)			Próprio objeto dono do método
+Sozinha					Objeto global (em nav. window)
+Função					Objeto global
+Evento					Elemento que recebeu o evento

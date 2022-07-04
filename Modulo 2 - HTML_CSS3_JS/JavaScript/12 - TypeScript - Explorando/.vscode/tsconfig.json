@@ -1,0 +1,8 @@
+{
+    // criamos um TypeScript Configuration File
+    "compilerOptions": {
+        "target": "es5", // – Informa ao TSC (TypeScript Compiler) para transpilar todo os arquivos TS para arquivos JS padrão;
+        "outDir": "jsScripts/", // – É o diretório de saída dos arquivos JavaScripts transpilados,  ou seja, “jsScripts”
+        "sourceMap": true // – Ajuda a debugar o typescript.
+    }
+}

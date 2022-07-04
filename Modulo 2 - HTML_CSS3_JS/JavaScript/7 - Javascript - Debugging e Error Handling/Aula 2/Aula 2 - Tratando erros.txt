@@ -1,0 +1,29 @@
+
+------------------------------------------------------------------------
+
+Throw, Try Catch e Finally
+
+Throw - Apresenta a mensagem a frente como uma mensagem de erro no console, sem tratamento deste erro.
+
+function verificaPalindrome(string){
+ if (!string) throw "String inválida";
+ return string === string.split("").reverse().join("");
+}
+
+
+Try...Catch - Tratamento de erros quando no "Try" é verificado que houve alguma invalidação, este passa para o "Catch" que executa determinda ação definida.
+
+Finally - Parte do código que irá sempre ser executado depois de passar pelo try...catch não sendo obrigatório sua implementação.
+
+function verificaPalindromo(string){
+ if (!string) throw "String inválida";
+ return string === string.split("").reverse().join("");
+}
+
+function tryCatchExemplo(string) {
+ try { verificaPalindromo(string) }
+ catch(e) { throw e; }
+ finally { console.log("Astring enviada foi:" + string; }
+}
+
+

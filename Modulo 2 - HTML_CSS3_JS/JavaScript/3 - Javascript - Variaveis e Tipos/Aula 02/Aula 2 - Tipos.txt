@@ -1,0 +1,110 @@
+Empty, Null e undefined
+
+Empty = possui valor. 
+(Declarado mais inicializado vazio let qtdeItem = 0;)
+
+Null = Não tem valor, seja Nulo.
+(Declarado e inicializado com NULL let qtdeItem = Null;)
+
+Undefined = Não existe valor. (Declarado sem valor qtdeItem = "";)
+
+------------------------------------------------------------------------
+Objetos 
+
+- Estrutura tipo "Chave e valor"
+
+let variavel = { keys values } ;
+
+EX: let person = {
+    name: "Julia",
+    age: 20,
+    adress: "Rua 2" }
+
+let mom = "nameOfMom"
+
+person[mom] = "Maria" //Cria um value com o nome indicado (nameOfMom: 'Maria')
+perosn.mom = "Maria" //Cria uma key com "mom" e value "maria"
+
+person
+{name: 'Julia', age: 20, adress: 'Rua 2', nameOfMom: 'Maria'}
+
+------------------------------------------------------------------------
+
+Arrays 
+
+- Lista Iteráveis de elementos.
+
+let variavel = []; //Declarando um array.
+
+variavel.push(elemento) // Adiciona ao final.
+variavel.pop(elemento) // Remove ao final.
+variavel.shift() // Remove elemento do inicio.
+variavel.unshift(elemento) // Adiciona no inicio.
+
+variavel.every(item => item === elemento) // Verifica se todos são iguais ao elemento.
+
+variavel.some(item => item === elemento) // Verifica se algum é igual ao elemento.
+
+------------------------------------------------------------------------
+
+Booleans
+
+True or False.
+
+------------------------------------------------------------------------
+
+Numbers
+
+- Classe Math
+
+Math.Pi
+Math.floor(variavel)
+Math.ceil(variavel)
+
+variavel.toString()
+
+------------------------------------------------------------------------
+
+Strings
+
+- Comumente usadas para textos;
+- Valores declarados entre aspas ou crases;
+- Interpolação.
+
+Metódos
+- Concatenação.
+- Propriedade length.
+- Iterabilidade.
+- Formatação.
+- Index de letras.
+
+-> Identificar o tipo de uma variavel: typeof + nome_variavel
+variavel.concat(variavel) -> concatena strings
+
+console.clear() - limpa tela do navegador.
+
+variavel[i] - busca indice inicia no 0.
+variavel.length - inicia em 1.
+
+` ${variavel} + ${variavel} ` - Interpolação de texto com variavel.
+
+variavel.split("") - retorna caractere por caractere em uma frase.
+variavel.split(" ") - retorna palavra por palavra com espaços em uma 
+
+variavel.includes("texto") [boolean] - verifica se tem o texto.
+variavel.startsWith("texto") [boolean] - verifica se começa com o texto.
+variavel.endsWith("texto") [boolean] - verifica se termina com o texto. 
+
+------------------------------------------------------------------------
+
+Estruturas de dados
+
+- Javascript é uma linguagem de tipagem dinâmica.
+- Antes de declarar não precisa especificar o tipo.
+
+Dados primitivos: Não possuem metódos.
+-> numbers / strings / boolean / null / undefined.
+
+Dados não-primitivos: Possuem metódos.
+-> objects / arrays.
+ 

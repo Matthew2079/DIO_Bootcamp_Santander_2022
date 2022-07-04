@@ -1,0 +1,26 @@
+
+------------------------------------------------------------------------
+
+Objeto Map
+
+Estrutura
+
+- Uma coleção de arrays no formato [chave,valor];
+- Pode ser iterado por um loop for...of
+
+Métodos - Adicionar, ler e deletar 
+
+const myMap = new Map()
+
+myMap.set('apple', 'fruit'); // Map(1) { "apple" => "fruit" }
+myMap.get("apple") // "fruit"
+myMap.delete("apple") // true
+myMap.get("apple") // undefined
+
+Map vs Objeto 
+
+-> Maps podem ter chaves de qualquer tipo; / Objetos: tipo strings.
+-> Maps possuem a propriedade length; / Objetos: iterar por todas propriedades.
+-> Maps são mais fáceis de iterar; 
+-> Utilizado quando o valor das chaves é desconhecido; / Objetos: acessa os elementos já conhecendo seu valor.
+-> Os valores tem o mesmo tipo. / Objetos: não necessariamente tem o mesmo tipo.

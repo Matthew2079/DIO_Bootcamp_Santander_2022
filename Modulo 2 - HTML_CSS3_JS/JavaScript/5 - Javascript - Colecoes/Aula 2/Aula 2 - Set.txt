@@ -1,0 +1,28 @@
+
+------------------------------------------------------------------------
+
+Objeto Set
+
+- Sets são estruturas que armazenam apenas valores únicos, não se repetem.
+
+const myArray = {1, 1, 2, 2, 3, 4, 5, 5, 6}
+const mySet = new Set(myArray);
+
+Métodos - Adicionar, consultar e deletar.
+
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1); // true
+mySet.has(3); // false
+
+mySet.delete(5);
+
+Set vs Array 
+
+-> Possui valores únicos;
+-> Em vez da propriedade length, consulta-se o número de registros pela propriedade size;
+-> Não possui os métodos map, filter, reduce etc.
+

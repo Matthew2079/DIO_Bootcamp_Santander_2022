@@ -1,0 +1,49 @@
+
+------------------------------------------------------------------------
+
+Definição, Promises e Async/Await
+
+Assíncrono: Que não ocorre ou não se efetiva ao mesmo tempo.
+
+-> Roda de maneira síncrona.
+
+Promises
+-> Objeto de processamento assíncrono.
+-> Inicialmente, seu valor é desconhecido. Ela pode então, ser resolvida ou rejeitada.
+
+1. Pending / 2. Fulfilled / 3. Rejected
+
+Estrutura / Manipulação
+
+const myPromise = new Promise((resolve, reject) => {
+ window.setTimeout(() => {
+ 	resolve("Resolvida");
+ }, 2000);
+});
+
+await myPromise
+	.then((result) => result + " passando pelo then")
+	.then((result) => result + " e agora acabou!")
+	.catch((err) => console.log(err.message));
+
+// Após 2 segundos, retornará o valor 
+// "Resolvida passando pelo then e agora acabou!"
+
+Async/await
+-> Funções assíncronas precisam dessas duas palavras chave.
+-> Funções assíncronas também retornam Promises.
+
+async function resolvedPromise(){
+	const myPromise = new Promise((resolve, reject) => {
+ 		window.setTimeout(() => {
+ 			resolve("Resolvida");
+ 		}, 3000);
+	});
+
+	const resolved = await myPromise
+		.then((result) => result + " passando pelo then")
+		.then((result) => result + " e agora acabou!")
+		.catch((err) => console.log(err.message));
+
+	return resolved;
+}

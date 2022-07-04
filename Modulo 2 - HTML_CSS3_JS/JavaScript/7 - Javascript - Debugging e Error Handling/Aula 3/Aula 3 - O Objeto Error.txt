@@ -1,0 +1,18 @@
+
+------------------------------------------------------------------------
+
+O Objeto Error
+
+Código:
+
+new Error(message, filename, linenumber)
+// todos os parâmetros são opcionais.
+OBS: Mais comum apenas o campo message, para os demais checar compatibilidade.
+
+const meuErro = new Error("Mensagem Inválida");
+meuErro.name = "InvalidMessage";
+throw meu Erro;
+
+
+
+
