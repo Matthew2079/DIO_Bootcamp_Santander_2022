@@ -9,6 +9,17 @@ OBS: Como validadção concluir o <strong>Desafio de Projeto de Git/GitHub do M�
 
 <p align="center">
  <a href="https://www.dio.me/"> <img src="https://user-images.githubusercontent.com/85805420/172208503-2680e538-7a33-4544-a252-f25a8ce4bf1d.png">
+
+<p align="center">
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="52" alt="typescript logo"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" width="52" alt="angularjs logo"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" width="52" alt="java logo"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" height="40" width="52" alt="spring logo"/>
+ 
+ 
  
 <p align="center">
  <img src="https://user-images.githubusercontent.com/85805420/182220515-19a9965b-8191-46dd-bbb3-ade010b4d6ee.JPG">
